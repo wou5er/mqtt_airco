@@ -1,12 +1,14 @@
 Requirements
-ESP8266
-Relay
+
+ESP8266 microcontroller
+
+Relay module
 
 Membrane water pump
-Water sensor
 
-This allows you to control a portable air conditioner with analog buttons.
-It communicates via MQTT.
+Water level sensor
 
-Additionally, it includes a control system that monitors the condensate water level and pumps it out if it gets too high.
+This project enables control of a portable air conditioner using analog buttons.
+Communication is handled via MQTT protocol.
 
+An integrated control system continuously monitors the condensate water level and activates the pump to remove excess water when the level exceeds a set threshold.
